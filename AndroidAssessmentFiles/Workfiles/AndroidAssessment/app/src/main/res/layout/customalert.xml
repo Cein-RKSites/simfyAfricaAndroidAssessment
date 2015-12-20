@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title..."
+        android:id="@+id/textViewTitle"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingRight="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android custom dialog example!"
+        android:id="@+id/textViewMsg"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingRight="15dp"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="5dp" />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:text="Close"
+        android:id="@+id/buttonClose"
+        android:textSize="10sp"
+        android:paddingLeft="5dp"
+        android:layout_alignTop="@+id/buttonPlay"
+        android:layout_toRightOf="@+id/buttonPlay"
+        android:layout_toEndOf="@+id/buttonPlay" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:text="PLAY"
+        android:id="@+id/buttonPlay"
+        android:textSize="10sp"
+        android:layout_below="@+id/textViewMsg"
+        android:layout_alignLeft="@+id/textViewMsg"
+        android:layout_alignStart="@+id/textViewMsg"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>

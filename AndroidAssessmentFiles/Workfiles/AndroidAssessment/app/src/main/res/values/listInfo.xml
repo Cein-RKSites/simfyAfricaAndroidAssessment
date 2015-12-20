@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="decriptions">
+        <item name="Track1">Unique Description1</item>
+        <item name="Track2">Unique Description2</item>
+        <item name="Track3">Unique Description3</item>
+        <item name="Track4">Unique Description4</item>
+        <item name="Track5">Unique Description5</item>
+        <item name="Track6">Unique Description6</item>
+        <item name="Track7">Unique Description7</item>
+        <item name="Track8">Unique Description8</item>
+        <item name="Track9">Unique Description9</item>
+        <item name="Track10">Unique Description10</item>
+    </string-array>
+    <string-array name="heading">
+        <item name="Track1">Unique Heading1</item>
+        <item name="Track2">Unique Heading2</item>
+        <item name="Track3">Unique Heading3</item>
+        <item name="Track4">Unique Heading4</item>
+        <item name="Track5">Unique Heading5</item>
+        <item name="Track6">Unique Heading6</item>
+        <item name="Track7">Unique Heading7</item>
+        <item name="Track8">Unique Heading8</item>
+        <item name="Track9">Unique Heading9</item>
+        <item name="Track10">Unique Heading10</item>
+    </string-array>
+</resources>
